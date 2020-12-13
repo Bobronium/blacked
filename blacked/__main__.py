@@ -120,7 +120,11 @@ def main():
     filter_blacked_args()
     patched_black = get_patched_black()
     logging.disable(logging.DEBUG)
-    patched_black.patched_main()
+
+    if hasattr(patched_black, 'patched_main'):
+        patched_black.patched_main()
+    else:  # older versions
+        patched_black.main()
 
 
 if __name__ == "__main__":
