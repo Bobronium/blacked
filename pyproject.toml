@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "blacked"
-version = "0.1.0-a.1"
+version = "0.1.0-a.2"
 description = ""
 readme = "readme.md"
 homepage = "https://github.com/MrMrRobat/blacked"
@@ -9,7 +9,7 @@ authors = ["MrMrRobat <appkiller16@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-black = "^18.4a0"
+black = ">=18.4a0"
 
 [tool.poetry.dev-dependencies]
 
