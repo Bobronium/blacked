@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "blacked"
-version = "0.1.0-a.2"
+version = "0.1.0-a.3"
 description = ""
 readme = "readme.md"
 homepage = "https://github.com/MrMrRobat/blacked"
