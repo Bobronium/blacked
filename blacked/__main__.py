@@ -116,8 +116,12 @@ def filter_blacked_args():
             side_effect()
 
 
-if __name__ == "__main__":
+def main():
     filter_blacked_args()
     patched_black = get_patched_black()
     logging.disable(logging.DEBUG)
     patched_black.patched_main()
+
+
+if __name__ == "__main__":
+    main()
